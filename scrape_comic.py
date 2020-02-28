@@ -15,11 +15,12 @@ comic = div.img
 
 src = "http://" + comic['src'][2:] #remove // from beginning of link
 driver.get(src)
+driver.quit()
 
 
 resp = requests.get(src, stream=True)
 # Open a local file with wb ( write binary ) permission.
-local_file = open('latest_comic.png', 'wb')
+local_file = open('/home/user1/Desktop/xkcd_scrape/latest_comic.png', 'wb')
 # Set decode_content value to True, otherwise the downloaded image file's size will be zero.
 resp.raw.decode_content = True
 shutil.copyfileobj(resp.raw, local_file)
