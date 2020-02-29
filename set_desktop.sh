@@ -6,3 +6,4 @@ gsettings set org.gnome.desktop.background picture-options 'stretched'
 
 gsettings set org.gnome.desktop.background picture-uri file:///home/user1/Desktop/xkcd_scrape/latest_comic.png
 
+gsettings set org.gnome.desktop.background show-desktop-icons false
