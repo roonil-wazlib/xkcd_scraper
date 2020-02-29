@@ -1964,3 +1964,12 @@ JavaScript error: resource:///actors/ContentMetaChild.jsm, line 167: InvalidStat
 1582966562099	Marionette	INFO	Listening on port 44319
 1582966562122	Marionette	WARN	TLS certificate errors will be ignored for this session
 1582966562634	Marionette	INFO	Stopped listening on port 44319
+1582966799833	Marionette	INFO	Stopped listening on port 39197
+1582966801182	Marionette	INFO	Stopped listening on port 46665
+1582966802205	Marionette	INFO	Stopped listening on port 46353
+1582966803053	Marionette	INFO	Stopped listening on port 46387
+1582966804000	Marionette	INFO	Stopped listening on port 44797
+1582966806595	Marionette	INFO	Stopped listening on port 44575
+1582966808797	Marionette	INFO	Stopped listening on port 34721
+1582966809653	Marionette	INFO	Stopped listening on port 42775
+1582966810462	Marionette	INFO	Stopped listening on port 34679
