@@ -8,3 +8,4 @@ gsettings set org.gnome.desktop.background picture-uri file:///home/user1/Deskto
 
 gsettings set org.gnome.desktop.background show-desktop-icons false
 gsettings set org.gnome.shell.extensions.dash-to-dock intellihide true
+bash /home/user1/Desktop/xkcd_scrape/set_mouseover.sh
