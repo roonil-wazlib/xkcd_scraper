@@ -59,7 +59,7 @@ def download_image(comic, driver):
     
     resp = requests.get(src, stream=True)
     #write file to local folder
-    local_file = open('/home/user1/Desktop/xkcd_scrape/latest_comic.png', 'wb')
+    local_file = open('FILE_PATH/latest_comic.png', 'wb')
     #Set decode_content value to True, otherwise the downloaded image file's size will be zero.
     resp.raw.decode_content = True
     shutil.copyfileobj(resp.raw, local_file)
@@ -69,7 +69,7 @@ def download_image(comic, driver):
     
 def set_comic_info(title, number, mouseover):
     """Set the display text in xkcd_info.txt"""
-    file = open('/home/user1/Desktop/xkcd_scrape/xkcd_info.txt', 'w')
+    file = open('FILE_PATH/xkcd_info.txt', 'w')
     file.write("\n\nxkcd {}: {} \n\n{}\n\n\n".format(number, title, mouseover))
     file.close()    
     
