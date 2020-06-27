@@ -1,2 +1,2 @@
-cat /home/user1/Desktop/xkcd_scrape/xkcd_info.txt
+cat FILE_PATH/xkcd_info.txt
 
